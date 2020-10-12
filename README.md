@@ -16,7 +16,7 @@ python train.py
 ```
 python predict.py
 ```
-![Connected component][results/connected_component.png]
+![Connected component](results/connected_component.png)
 
 ### Results
 
