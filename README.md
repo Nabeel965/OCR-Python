@@ -16,10 +16,7 @@ python train.py
 ```
 python predict.py
 ```
-
-<p align="center">
-<img src="results/connected_component.png" title="Connected components in the image" /></a></p>
-<img src="results/characters.png"/></a>
+![Connected component][results/connected_component.png]
 
 ### Results
 
