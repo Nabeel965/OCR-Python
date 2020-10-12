@@ -1,27 +1,53 @@
-#### OCR-Python
+## OCR-Python
 
-Result:
+A simple approach to OCR in python using connected component labelling and a convolutional neural network.
 
-2O ooo LEAGUEs UNDER THE sEA
-chok ng but he manage to sH ut He1p
-He1p
-I was stunnea to hear these words
-screa ed ou n French d d h ve feL
-iow countryman on boara aF er a11 And 1o
-h1s momen of eeath he ha 6Orgotten he k
-strange speecH he ha usea on board He ha w Y
-gasped H s dy ng wor s n h s nat ve 1an v
-Wage K
-But the poor man was done 8Or Noth1n R
-cou1d save h m from such a pOwerfu1 1p A u 0
-Neverthe1ess Gapta n NemO hur ed h mse1 h
-at he squ d an w tH repea e bLows of h g Y
-axe cut oH seven of ts tentac1es But ust
-he rushe at the e gh h the one crusH N
-the sa11or the squ e e out spray o b c k
-nk We were a1 b1 n e by t or sever
-moments en the spray c eared Ehe squ1
-ha seppeared and w th t the u onun
-sa1 or
-Meanwh 1e we were attack ng ehe rest
-2o6 Cap n Nemo Attacks he squ d
+### Dataset
+
+* [EnglishFnt] (http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/)
+
+**To train the model :**
+
+```
+python train.py 
+```
+
+**To validate the model :**
+```
+python predict.py
+```
+
+<p align="center">
+<img src="results/connected_component.png"/></a></p>
+<img src="results/characters.png"/></a>
+
+### Results
+
+```
+2ooo0 LEAGUEs UNDER HE sEA
+chok ng but he managed to shout He2pt
+H l
+e p
+I as stunned 0 hear these w0rd
+scre ed 0ut n French dad k ve a el
+l0w count man on board aEter all And n X
+b s moment 0 death he had org0tten he GR
+str nge eecb he had used on board He h d q
+gasped h2s dy ng words n h s nat ve lan Y v
+Page K
+But the po0r man was done or Noth ng h
+c0u d saVe blm Er0m such a p0werEul p M
+Neverthe ess Capta n Nem0 hur ed h msel 2
+at he squ2d and w th repea d b 0ws 0E h u
+axe cut o seven 0E lts tentacles But ust
+he rushed at the e ghth the one crush n YN N
+the sa l0r the squ d et 0 a spr y 0f blac
+nk we were a1 b Inded by at G0r sever Y
+m0ments en the spr y cleared the squ
+had dls ppeared and w h 2t the uso un
+sal or
+Meanwhlle we were a tack ng the reSt v
+2o6 Capta n Nemo Attacks tbe squ d
+```
+
+
