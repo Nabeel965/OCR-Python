@@ -16,7 +16,11 @@ python train.py
 ```
 python predict.py
 ```
+
+#### Connected components in the Image
 ![Connected component](results/connected_component.png)
+
+#### Characters Bounding boxes with the predicted text 
 ![Characters prediction](results/characters.png)
 
 ### Results
